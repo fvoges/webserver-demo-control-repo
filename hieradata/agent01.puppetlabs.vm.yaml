@@ -1,0 +1,5 @@
+---
+web_site_fqdn: [ '_', ]
+web_site_repo: 'https://github.com/fvoges/static-website-demo.git'
+#web_site_version: 'develop'
+web_site_version: 'master'
