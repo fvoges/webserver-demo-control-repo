@@ -1,4 +1,4 @@
-class profiles::web_server {
+class profile::web_server {
   $web_site_fqdn    = hiera('web_site_fqdn')
   $web_site_repo    = hiera('web_site_repo')
   $web_site_version = hiera('web_site_version')

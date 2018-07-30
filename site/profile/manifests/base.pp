@@ -1,4 +1,4 @@
-class profiles::base {
+class profile::base {
   $ntp_servers = hiera('ntp_servers')
 
   class { '::ntp':
