@@ -1,13 +1,6 @@
-puppet-demo
-===========
+Web server demo
+===============
 
-Simple Puppet Demo to show roles, profiles, hiera, etc.
+Simple Puppet demo control repo to show roles, profiles, hiera, etc.
 
-Using these manifests will setup a node with nginx and a static index.html retrieved from a github repo.
-
-This deoends on these puppet modules:
- jfryman-nginx
- puppetlabs-ntp
- puppetlabs-vcsrepo
- 
-You can use `puppet module install MODULENAME` to get them installed
+Using these manifests will setup a node with Nginx and a static index.html retrieved from a [GitHub repository](https://github.com/fvoges/static-website-demo).
